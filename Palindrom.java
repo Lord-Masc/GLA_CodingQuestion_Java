@@ -21,7 +21,7 @@ public class Palindrom {
         int count = 0;
         for (int i = 0; i < arr.length; i++) {
 
-            boolean flag = isPalindrom(i);
+            boolean flag = isPalindrom(arr[i]);
             if (flag) {
                 count++;
             }
@@ -31,6 +31,8 @@ public class Palindrom {
         } else {
             System.out.println("Not palindrom");
         }
+        
+
 
     }
 }
